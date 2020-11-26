@@ -1,0 +1,39 @@
+body {
+  background-color: #f1f6f9;
+    font-family: "arial", serif;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width:5px;
+
+}
+h1 {
+  color: #14274e;
+}
+h2{
+  color: #24365c;
+}
+h3 {
+  color: #394867;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #d3e2eb}
+
+th {
+  background-color: #9ba4b4;
+  color: white;
+}
