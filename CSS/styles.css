@@ -1,23 +1,30 @@
+/******* TAG SELECTOR ********/
 body {
   background-color: #f1f6f9;
     font-family: "thaoma", serif;
-}
+    }
 
 hr {
   border-color: grey;
   border-style: none;
   border-top-style: dotted;
   border-width:5px;
-
 }
+
 h1 {
   color: #14274e;
 }
+
 h2{
   color: #24365c;
 }
+
 h3 {
   color: #394867;
+}
+
+img{
+  background-color: #f1f6f9;
 }
 
 table {
@@ -36,4 +43,20 @@ tr:nth-child(even){background-color: #d3e2eb}
 th {
   background-color: #9ba4b4;
   color: white;
+}
+/******************* CLASS SELECTOR*****************/
+.hobbyncontacts{
+  background-color: #f1f6f9;
+}
+
+.tr:nth-child(even){
+  background-color: #f1f6f9;
+}
+
+.frecce{
+  background-color: #f1f6f9;
+}
+
+.left{
+  caption-side: inherit;
 }
